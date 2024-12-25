@@ -81,10 +81,9 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="gui.main.rtm" Type="Document" URL="../code/code/Menu/gui.main.rtm"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Build Main" Type="EXE">
+			<Item Name="Growponics.exe" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{BD0CD35C-2BCF-4734-834A-8767DE9A4B3A}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{1D6133A4-F0B8-4198-B975-4CBDCAE7C581}</Property>
@@ -93,7 +92,7 @@
 				<Property Name="App_winsec.description" Type="Str">http://www.Private.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{F3F61C96-4775-4E5D-B49A-F7F9218C964F}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Build Main</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Growponics.exe</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -101,7 +100,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{18A6E7F1-D0D1-48E7-8F5E-716EB5C7FC31}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Growponics.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Growponics.exe</Property>
@@ -110,7 +109,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{17BF533C-18FF-4E48-81A4-11FFB8885DF3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{447C88D1-A899-43FC-9824-D6729B51029A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/code/main.vi</Property>
@@ -118,10 +117,10 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Private</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Build Main</Property>
-				<Property Name="TgtF_internalName" Type="Str">Build Main</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Growponics.exe</Property>
+				<Property Name="TgtF_internalName" Type="Str">Growponics.exe</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Private</Property>
-				<Property Name="TgtF_productName" Type="Str">Build Main</Property>
+				<Property Name="TgtF_productName" Type="Str">Growponics.exe</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{50AD559A-A1E8-43FE-973F-5F8D617475D3}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Growponics.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
